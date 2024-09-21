@@ -1,0 +1,32 @@
+{
+  "name": "voaip",
+  "version": "1.0.0",
+  "description": "Voice AI over IP",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Sumit189/voAIp.git"
+  },
+  "keywords": [
+    "voice",
+    "ai",
+    "llm"
+  ],
+  "author": "Sumit Paul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sumit189/voAIp/issues"
+  },
+  "homepage": "https://github.com/Sumit189/voAIp#readme",
+  "dependencies": {
+    "@google/generative-ai": "^0.19.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "twilio": "^5.3.1"
+  }
+}
