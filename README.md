@@ -38,9 +38,7 @@ V O AI P is an interactive voice response system that utilizes Google Generative
 
 **Set up environment variables:**
 ```sh
-    GOOGLE_API_KEY=your_google_api_key
-    TWILIO_ACCOUNT_SID=your_twilio_account_sid
-    TWILIO_AUTH_TOKEN=your_twilio_auth_token
+    GENERATIVE_AI_API_KEY=your_gemini_api_key
     PORT=3000
 ```
 
