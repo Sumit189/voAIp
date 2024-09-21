@@ -50,4 +50,4 @@ V O AI P is an interactive voice response system that utilizes Google Generative
 
 **Set up Twilio webhook:**
 - Set up a new Twilio phone number
-- Set the webhook URL to NGROK_URL/voice
+- Set the webhook URL to NGROK_URL/incoming-call
