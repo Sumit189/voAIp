@@ -8,7 +8,8 @@ const CallController = {
         twiml.record({
             transcribe: true,
             transcribeCallback: '/transcription',
-            maxLength: 30
+            maxLength: 60,
+            action: '/transcription'
         });
     
         res.type('text/xml');

@@ -9,7 +9,7 @@ const GenerativeAIService = {
     getAnswer: async (transcriptionText) => {
         const prompt = `Answer this question: ${transcriptionText}`;
         const result = await model.generateContent(prompt, { max_length: 100, num_results: 1 });
-        return result.response.text();
+        return result?.response?.text();
     }
 }
 
